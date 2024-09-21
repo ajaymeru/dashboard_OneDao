@@ -1,0 +1,59 @@
+.knowledge-base {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h2 {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 28px;
+        color: #2E3A59;
+    }
+
+    .card-container {
+        display: flex;
+        width: 619px;
+        height: 80px;
+        gap: 10px;
+
+        .card {
+            width: 200px;
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+            h3 {
+                font-family: Montserrat;
+                font-size: 15px;
+                font-weight: 600;
+                line-height: 14px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .card-orders {
+
+            color: #3366FF !important;
+            background: rgba(51, 102, 255, 0.2);
+        }
+
+        .card-earnings {
+            color: rgba(255, 51, 63, 1);
+            background: rgba(255, 51, 63, 0.2);
+
+        }
+
+        .card-profit {
+            color: #4CAF50;
+            background: rgba(76, 175, 80, 0.2);
+        }
+    }
+}

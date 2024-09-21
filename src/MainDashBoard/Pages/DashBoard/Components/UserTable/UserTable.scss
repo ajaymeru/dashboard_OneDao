@@ -1,0 +1,102 @@
+.user-table {
+    width: 100%;
+    overflow-x: auto;
+
+    .MuiTable-root {
+        width: 100%;
+    }
+
+    .profile {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .img {
+            width: 37px;
+            height: 37px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+
+            p:first-child {
+                font-size: 12px;
+                font-weight: bold;
+                line-height: 18px;
+                color: rgba(25, 42, 62, 1);
+            }
+
+            p:last-child {
+                font-size: 10px;
+                font-weight: 500;
+                line-height: 15px;
+                letter-spacing: 0.01em;
+                color: rgba(144, 160, 183, 1);
+            }
+        }
+    }
+
+
+
+    .MuiTableCell-body {
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 15px;
+        color: rgba(25, 42, 62, 1);
+    }
+
+    .MuiTableHead-root {
+        background: rgba(247, 248, 250, 1);
+        border: 1px solid rgba(239, 240, 244, 1);
+        border-radius: 8px;
+    }
+
+    .MuiTableCell-head {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 14.63px;
+        color: rgba(80, 84, 112, 1);
+        border-radius: 8px;
+
+    }
+
+    .income-cell p {
+        background: rgba(36, 193, 143, 0.1);
+        border-radius: 12px;
+        padding: 2px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 9px;
+        font-weight: 500;
+        // line-height: 13.5px;
+        color: rgba(36, 193, 143, 1);
+        text-align: center;
+    }
+
+    .pagination-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 20px;
+
+        .pagination-stack {
+            margin-left: 10px;
+        }
+    }
+
+    .MuiTableCell-root {
+        padding: 8px;
+        border: none;
+    }
+
+    .MuiTableContainer-root {
+        width: 100%;
+        border-bottom: 1px solid rgba(239, 240, 244, 1);
+    }
+
+
+}

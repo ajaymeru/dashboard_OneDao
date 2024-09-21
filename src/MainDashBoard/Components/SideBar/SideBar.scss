@@ -1,0 +1,54 @@
+.sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: black;
+    transition: width 0.3s ease;
+    border-radius: 0 30px 30px 0;
+    color: white;
+    z-index: 1000;
+
+    .avatar {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mainmenu {
+        // margin: 15px 20px;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 0.6);
+
+    }
+
+    .links {
+        .item {
+            display: flex;
+            justify-content: flex-start;
+            padding: 10px 20px;
+            color: white;
+            transition: all 0.3s ease;
+            border-radius: 30px 0 0 30px;
+
+            &:hover,
+            &.active {
+                background-color: white;
+                color: black;
+
+                .links-item {
+                    color: rgba(84, 89, 234, 1);
+                }
+            }
+
+            .links-item {
+                color: white;
+                transition: color 0.3s ease;
+            }
+        }
+    }
+}

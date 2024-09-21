@@ -1,0 +1,29 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .dashboard-top {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+        .dashboard-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .dashboard-right {
+            display: flex;
+        }
+    }
+
+    .dashboard-bottom {
+        display: flex;
+
+        .dashboard-item {
+            width: 100%;
+        }
+    }
+}
