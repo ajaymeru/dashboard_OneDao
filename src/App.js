@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/otp-verify" element={<OtpVerify />} />
+          <Route path="/otp" element={<OtpVerify />} />
           <Route path="/*" element={<Home />} />
         </Routes>
       </Router>

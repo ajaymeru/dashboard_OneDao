@@ -5,21 +5,19 @@ import { Routes, Route } from 'react-router-dom';
 import Dashboard from './Pages/DashBoard/Dashboard';
 import Orders from './Pages/Orders/Orders';
 import Rides from './Pages/Rides/Rides';
-import Clients from '../Pages/Clients/Clients.js';
-import Drivers from '../Pages/Drivers/Drivers.js';
-import Shift from '../Pages/Shift/Shift.js';
-import LiveMap from '../Pages/LiveMap/LiveMap.js';
-import CarClasses from '../Pages/CarClasses/CarClasses.js';
-import Branches from '../Pages/Branches/Branches.js';
-import Moderators from '../Pages/Moderators/Moderators.js';
-import Settings from '../Pages/Settings/Settings.js';
+import Clients from './Pages/Clients/Clients.js';
+import Drivers from './Pages/Drivers/Drivers.js';
+import Shift from './Pages/Shift/Shift.js';
+import LiveMap from './Pages/LiveMap/LiveMap.js';
+import CarClasses from './Pages/CarClasses/CarClasses.js';
+import Branches from './Pages/Branches/Branches.js';
+import Moderators from './Pages/Moderators/Moderators.js';
+import Settings from './Pages/Settings/Settings.js';
 
 const Home = () => {
-    // State to manage sidebar collapse
     const [isCollapsed, setIsCollapsed] = useState(false);
 
     const handleDrawerToggle = () => {
-        // Toggle the sidebar state
         setIsCollapsed(prevState => !prevState);
     };
 
